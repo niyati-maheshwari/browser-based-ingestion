@@ -1,7 +1,7 @@
-import { kinesisVideo } from '../src/kinesisVideo.js'
-import { createStream } from '../src/createStream.js'
-import { getDataEndpoint } from '../src/getDataEndpoint.js'
-import { getBlobFromWebcam, getBlobFromFile, stopRecording } from '../src/getProcessedVideo.js'
+import { kinesisVideo } from './src/kinesisVideo.js'
+import { createStream } from './src/createStream.js'
+import { getDataEndpoint } from './src/getDataEndpoint.js'
+import { getBlobFromWebcam, getBlobFromFile, stopRecording } from './src/getProcessedVideo.js'
 
 var startRecordButton = document.getElementById('startRecord')
 var stopRecordButton = document.getElementById('stopRecord')
